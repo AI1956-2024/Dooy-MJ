@@ -101,6 +101,19 @@ const chatId= computed(()=>chatStore.active??'1002' );
 						    </n-tooltip>
 						</a>
 
+							<!-- 新增商城 -->
+									<a href="https://www.915x.com/" target="_blank" class="router-link-exact-active h-12 w-12 cursor-pointer rounded-xl bg-white duration-300 dark:bg-[#34373c] hover:bg-[#bbb] dark:hover:bg-[#555]">
+								    <n-tooltip placement="right" trigger="hover">
+								        <template #trigger> 
+								            <div class="flex h-full justify-center items-center py-1 flex-col">
+								                <SvgIcon icon="ri:upload-cloud-2-line" class="text-3xl flex-1"></SvgIcon>
+								                <span class="text-[10px]">商城</span>
+								            </div> 
+								        </template>
+								        商城
+								    </n-tooltip>
+								</a>
+
 
             <!-- <section  class=" router-link-exact-active h-12 w-12 cursor-pointer rounded-xl bg-white duration-300 dark:bg-[#34373c] hover:bg-[#bbb] dark:hover:bg-[#555]"
              >
