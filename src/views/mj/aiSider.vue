@@ -106,7 +106,7 @@ const chatId= computed(()=>chatStore.active??'1002' );
 								    <n-tooltip placement="right" trigger="hover">
 								        <template #trigger> 
 								            <div class="flex h-full justify-center items-center py-1 flex-col">
-								                <SvgIcon icon="ri:upload-cloud-2-line" class="text-3xl flex-1"></SvgIcon>
+								                <SvgIcon icon="tabler:shopping-bag" class="text-3xl flex-1"></SvgIcon>
 								                <span class="text-[10px]">商城</span>
 								            </div> 
 								        </template>
